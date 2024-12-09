@@ -17,7 +17,7 @@ jobs:
         with:
           aws-access-key-id: sail
           aws-secret-access-key: password
-          aws-region: us-west-2
+          aws-region: ap-south-1
 
       - name: Create CodeDeploy Deployment
         run: |
